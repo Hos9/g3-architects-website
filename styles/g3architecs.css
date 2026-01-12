@@ -1,3 +1,20 @@
 * {
   background-color: bisque;
 }
+
+/* Shared Style */
+
+.display-flex {
+  display: flex;
+}
+
+/* Own Style */
+
+.nav-menu .nav-items a {
+  text-decoration: none;
+}
+
+.nav-menu .nav-items {
+  list-style: none;
+  margin-right: 30px;
+}
