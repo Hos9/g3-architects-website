@@ -8,7 +8,7 @@
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -35,17 +35,23 @@
 .w-color {
   color: #ffffff;
 }
-.btn{
+.btn {
   padding: 20px 25px;
   background-color: #ff900e;
   border: none;
   border-radius: 8px;
+  margin-top: 32px;
+  margin-bottom: 50px;
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 /* Own Style */
+header {
+  /* margin-top: 50px; */
+}
 .nav-container {
   padding: 50px auto;
-
 }
 
 .nav-menu .nav-items a {
@@ -57,8 +63,26 @@
 }
 .nav-bar {
   align-items: center;
+  margin-bottom: 100px;
+  padding-top: 50px;
 }
-.hero-container{
+.hero-container {
   text-align: center;
-  margin-top: ;
+}
+.hero-title {
+  font-size: 4rem;
+}
+.hero-description {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.hero-title,
+.hero-description {
+  width: 60%;
+  max-width: 862px;
+}
+
+.hero-img {
+  padding-bottom: 45px;
 }
